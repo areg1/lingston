@@ -1,0 +1,63 @@
+.top {
+    background-image: url("../img/bg_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+    color: white;
+}
+
+.titlesTop {
+    width: 78%;
+    height: 568px;
+    padding-top: 304px;
+}
+
+.in-titlesTop > span:nth-child(1) {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 6vw;
+    padding-top: 128px;
+    padding-left: 13%;
+}
+
+.in-titlesTop > span:nth-child(2) {
+    padding-left: 13.7%;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.in-titlesTop {
+    background-image: url("../img/plastic_winows.png");
+    background-repeat: no-repeat;
+    height: 340px;
+    padding-top: 30px;
+    background-size: 100%;
+    background-position: center;
+}
+
+.buttonTop {
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../font/Lato-Bold.ttf");
+}
+
+.buttonTop > div {
+    font-family: 'Lato';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 49px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    width: 221px;
+    height: 49px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    cursor: pointer;
+}

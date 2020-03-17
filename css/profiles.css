@@ -1,0 +1,105 @@
+.profiles {
+    background: rgba(181, 178, 178, 0.56);
+    padding: 88px 10%;
+    padding-bottom: 0px;
+}
+
+.profilesChild-1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 86px;
+}
+
+.profilesChild-1 > img {
+    width: 260px;
+    height: 118px;
+}
+
+.profilesChild-1 > div > div:nth-child(1) {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 3vw;
+    margin-bottom: 12px;
+}
+
+.profilesChild-1 > div > div:nth-child(2) {
+    font-family: 'Ubuntu';
+    width: 70%;
+    font-size: 1.5vw;
+}
+
+.profilesChild-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slaiderItem > img {
+    height: 313px;
+    margin-bottom: 15px;
+}
+
+.slaiderItem > div:nth-child(2) {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 1.6vw;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.slaiderItem > div:nth-child(3) {
+    font-family: 'Ubuntu';
+    font-size: 17px;
+    text-align: center;
+    width: 90%;
+}
+
+.slaiderArrow {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 170px;
+}
+
+.slaiderArrow:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.profilesChild-3 {
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profilesChild-3 > div {
+    width: 25%;
+    height: 250px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    padding: 73px 0 20px 0;
+    background-repeat: no-repeat;
+}
+
+.profilesChild-3 > div > div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilesChild-3 > div > div > span {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 2.9vw;
+    color: #FFFFFF;
+}
+
+.profilesChild-3 > div > div:nth-child(2) {
+    font-family: 'Ubuntu';
+    font-size: 1.5vw;
+    text-align: center;
+    padding-top: 70px; 
+}
+

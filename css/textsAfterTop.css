@@ -1,0 +1,11 @@
+.coupleText {
+    display: flex;
+    /* justify-content: center; */
+    margin: 0;
+    padding: 49px 11% 73px 11%;
+}
+
+.coupleText > div {
+    font-family: 'Ubuntu';
+    font-size: 22px;
+}

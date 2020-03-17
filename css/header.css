@@ -1,0 +1,110 @@
+.onHeader {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* margin: 0 8%; */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.59) 0%, rgba(196, 196, 196, 0) 938.59%);
+    height: 84px;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: url("../font/Ubuntu-Medium.ttf");
+}
+
+.menuHeader {
+    display: flex;
+    list-style-type: none;
+    padding: 36px 0 0;
+    margin: 0;
+    justify-content: center;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 0.9375vw;
+    color: white;
+    letter-spacing: 0.02em;
+}
+
+.menuHeader li > a {
+    color: unset;
+    text-decoration: none;
+}
+
+.menuHeader li > a:hover {
+    cursor: pointer;
+}
+
+.contactsHeader {
+    color: white;
+    font-family: 'Ubuntu';
+    padding: 31px 0 0 15px;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../font/OpenSans-Regular.ttf");
+}
+
+.contactsHeader > div:nth-child(2) {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 0.9vw;
+}
+
+.contactsHeader > div:nth-child(1) {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.97vw;
+    line-height: 16px;
+}
+
+.logoHeader {
+    background-image: url("../img/white.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 171px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoHeader > span {
+    position: relative;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../font/Raleway-Medium.ttf");
+}
+
+.logoHeader > span > div:nth-child(1) {
+    font-family: 'Raleway';
+    letter-spacing: 1px;
+    padding: 15px 0 0 20px;
+    margin-bottom: -8px;
+    font-size: 6px;
+}
+
+@font-face {
+    font-family: 'Marck Script';
+    src: url("../font/MarckScript-Regular.ttf");
+}
+
+.logoHeader > span > div:nth-child(2) {
+    font-family: 'Marck Script';
+    font-size: 25px;
+}
+
+.contactsHeader > div:hover {
+    opacity: .5;
+    transition: .5s;
+    cursor: pointer;
+}
